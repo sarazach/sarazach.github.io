@@ -14,7 +14,7 @@
     <!-- Bootstrap core CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    
+
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
@@ -26,7 +26,7 @@
     <script type="text/javascript">
         // When the window has finished loading create our google map below
         google.maps.event.addDomListener(window, 'load', init);
-    
+
         function init() {
             var position = new google.maps.LatLng(34.235945, -77.775286);
             // Basic options for a simple Google Map
@@ -34,13 +34,13 @@
             var mapOptions = {
                 // How zoomed in you want the map to start at (always required)
                 zoom: 12,
-                
+
                 scrollwheel: true,
 
                 // The latitude and longitude to center the map (always required)
                 center: position, // New York
 
-                // How you would like to style the map. 
+                // How you would like to style the map.
                 // This is where you would paste any style found on Snazzy Maps.
                 styles: [
                   {
@@ -118,7 +118,7 @@
               ]
             };
 
-            // Get the HTML DOM element that will contain your map 
+            // Get the HTML DOM element that will contain your map
             // We are using a div with id="map" seen below in the <body>
             var mapElement = document.getElementById('map');
 
@@ -151,7 +151,7 @@
 
   <body>
     <div class="bgImageContainer"></div>
-    
+
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
@@ -182,9 +182,9 @@
           <div class="inner cover">
             <img src="images/date-100.png"/><h1 class="cover-heading">About the Couple</h1>
           </div>
-          
+
           </br></br>
-    
+
           <div class="row featurette">
             <div class="col-md-12">
               <p class="lead">Zachary grew up in Apex, NC and will be graduating from the University of North Carolina at Chapel Hill in May 2015 with a degree in Chemistry. He hopes to pursue a degree in Pharmacy after graduation. He is currently working as a barista for Starbucks in Chapel Hill.</p>
@@ -194,9 +194,9 @@
             </div>
           </div>
 
-          
 
-          <div class="container dev-footer">    
+
+          <div class="container dev-footer">
               <footer>
                 <p class="pull-left">&copy; 2014 r0adkll.</p>
               </footer>
@@ -206,19 +206,19 @@
 
       </div>
 
-    </div> 
-    
-  
+    </div>
+
+
       <!-- Bootstrap core JavaScript
     ================================================== -->
-    
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
-    
+
       function initialize() {
         var mapCanvas = document.getElementById('map_canvas');
         var mapOptions = {
@@ -230,7 +230,7 @@
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-    
+
     <!-- Placed at the end of the document so the pages load faster -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
     <!--<script src="../../dist/js/bootstrap.min.js"></script>-->
